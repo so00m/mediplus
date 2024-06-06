@@ -3,5 +3,5 @@
 @section('content')	
 		<!-- Error Page -->
 		@include('includes.errorPage')
-		<!--/ End Error Page -->
+		<!--/ End Error    Page -->
 @endsection
