@@ -17,25 +17,25 @@
 								<div class="main-menu">
 									<nav class="navigation">
 										<ul class="nav menu">
-											<li class="{{Request::is('home')? 'active':''}}"><a href="{{route('home')}}">Home<i class="icofont-rounded-down"></i></a>
+											<li class="{{Request::is('home')? 'active':''}}"><a href="{{route('home')}}">{{__('messages.Home')}}<i class="icofont-rounded-down"></i></a>
 												<ul class="dropdown">
-													<li><a href="{{route('portfolio-details')}}">Portfolio-details</a></li>
+													<li><a href="{{route('portfolio-details')}}">{{__('messages.Portfolio-details')}}</a></li>
 												</ul>
 											</li>
 											
-											<li class="{{Request::is('doctos')? 'active':''}}"><a href="#">Doctos </a></li>
-											<li class="{{Request::is('services')? 'active':''}}"><a href="{{route('services')}}">Services </a></li>
-											<li class="{{Request::is('pages')? 'active':''}}"><a href="#">Pages <i class="icofont-rounded-down"></i></a>
+											<li class="{{Request::is('doctos')? 'active':''}}"><a href="#">{{__('messages.Doctos')}} </a></li>
+											<li class="{{Request::is('services')? 'active':''}}"><a href="{{route('services')}}">{{__('messages.Services')}} </a></li>
+											<li class="{{Request::is('pages')? 'active':''}}"><a href="#">{{__('messages.Pages')}} <i class="icofont-rounded-down"></i></a>
 												<ul class="dropdown">
-													<li><a href="{{route('error404')}}">404 Error</a></li>
+													<li><a href="{{route('error404')}}">{{__('messages.404Error')}}</a></li>
 												</ul>
 											</li>
-											<li class="{{Request::is('blogs')? 'active':''}}"><a href="{{route('blogs')}}">Blogs <i class="icofont-rounded-down"></i></a>
+											<li class="{{Request::is('blogs')? 'active':''}}"><a href="{{route('blogs')}}">{{__('messages.Blogs')}} <i class="icofont-rounded-down"></i></a>
 												<ul class="dropdown">
-													<li><a href="{{route('blogDetails')}}">Blog Details</a></li>
+													<li><a href="{{route('blogDetails')}}">{{__('messages.BlogDetails')}}</a></li>
 												</ul>
 											</li>
-											<li class="{{Request::is('contact')? 'active':''}}"><a href="{{route('contact')}}">Contact Us</a></li>
+											<li class="{{Request::is('contact')? 'active':''}}"><a href="{{route('contact')}}">{{__('messages.ContactUs')}}</a></li>
 										</ul>
 									</nav>
 								</div>
@@ -43,7 +43,7 @@
 							</div>
 							<div class="col-lg-2 col-12">
 								<div class="get-quote">
-									<a href="{{route('appointment')}}" class="btn">Book Appointment</a>
+									<a href="{{route('appointment')}}" class="btn">{{__('messages.BookAppointment')}}</a>
 								</div>
 							</div>
 						</div>

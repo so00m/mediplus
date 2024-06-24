@@ -16,9 +16,13 @@
 							<ul class="top-contact">
 								<li><i class="fa fa-phone"></i>+880 1234 56789</li>
 								<li><i class="fa fa-envelope"></i><a href="mailto:support@yourmail.com">support@yourmail.com</a></li>
+								<li></li>
+								<li><a href="{{ LaravelLocalization::getLocalizedURL('en')}}"><img src="{{ asset('assets/img/en-flag.png') }}" ></a></li>
+								<li><a href="{{ LaravelLocalization::getLocalizedURL('ar')}}"><img src="{{ asset('assets/img/ar-flag.png') }}" ></a></li>
 							</ul>
 							<!-- End Top Contact -->
 						</div>
+
 					</div>
 				</div>
 			</div>
